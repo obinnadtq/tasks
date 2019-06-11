@@ -8,6 +8,8 @@ import datetime
 name = input('Please enter your name: ')            #Enter user name
 age = int(input('Please enter your age: '))         #Enter user age
 age_diff = 100 - age                                #difference between age and 100
-todays_date = datetime.datetime.now()               #today's date
-print('You will be 100 years old in the year:',todays_date.year+age_diff)
+todays_date = datetime.datetime.now()   
+future_date = todays_date.year + age_diff            #today's date
+print('{} you will be 100 years old in the year {}'.format(name, future_date))
 
+#string formating

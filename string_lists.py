@@ -6,7 +6,7 @@ Created on Fri May 17 21:36:52 2019
 """
 string1 = input('Enter the string:')                #request user to input string
 
-for_string = string1[0::]                           # print the string from left to right
+# for_string = string1[0::]                           # print the string from left to right
 
 rev_string = string1[::-1]                          #print thr string from right to left
 

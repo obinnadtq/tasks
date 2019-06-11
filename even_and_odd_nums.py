@@ -7,7 +7,7 @@ Created on Fri May 17 20:20:40 2019
 
 num = int(input('Enter the number: '))        #prompt user to enter the number
 
-if (num % 2 == 0 | num % 4 == 0):
+if (num % 2 == 0 and num % 4 == 0):
     print('You just entered an even number')
     
 else:

@@ -11,8 +11,11 @@ list_1 = [1,1,2,3,5,8,13,21,34,55,89]               #list of numbers
 
 new_list = []                                       #empty list
 
-for num in list_1 :
-    if num < user_input:
-        new_list.append(num)
+# for num in list_1 :
+#     if num < user_input:
+#         new_list.append(num)
+# print([num, if num<new_list])
+
+new_list = [num for num in list_1 if num < user_input]
         
 print(new_list)

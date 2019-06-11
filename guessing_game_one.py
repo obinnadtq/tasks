@@ -29,3 +29,6 @@ while True:
         break
     
     print(counter)
+
+# 3 trials
+# when trial ends, ask user to play again

@@ -13,4 +13,5 @@ def list_ends(lists):
     return new_list
 
 print(list_ends([5,10,15,20,25]))
-    
+
+# scopes, variable scope
